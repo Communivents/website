@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CE</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"></script>
+</head>
+<body>
+    <div class="smooth-scroll-container">
+        <div class="hero">
+            <div class="image-container">
+                <img src="images/image.png" alt="Hero Image" class="hero-image">
+                <div class="gradient-overlay"></div>
+            </div>
+            <div class="logo-container">
+                <img id="logo" src="images/logo.png" alt="Your Logo" class="logo">
+            </div>
+        </div>
+        <div class="content">
+            <section class="section">
+                <div class="section-content">
+                    <div class="text-content">
+                        <h1>Notre but</h1>
+                        <p>Rendre votre experience d'événement meilleur ! Nous transformons votre expérience Minecraft en simplifiant la participation aux événements. Grâce à nos outils innovants, vous restez informé des nouveaux événements en temps réel et pouvez rejoindre les serveurs sans tracas de configuration.</p>
+                    </div>
+                    <div class="video-container">
+                        <video autoplay loop muted class="section-video">
+                            <source src="videos/gif1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section-content reverse">
+                    <div class="video-container2">
+                        <video autoplay loop muted class="section-video">
+                            <source src="videos/gif2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="text-content">
+                        <h1>Mais aussi crEer de la compEtition</h1>
+                        <p>Nous organisons également nos propres compétitions uniques, offrant aux joueurs de nouvelles opportunités pour briller et se mesurer à d'autres passionnés. En rejoignant notre communauté, vous accédez à un monde d'événements variés, de défis excitants et de rencontres enrichissantes, le tout dans un esprit de compétition saine et motivante.</p>
+                    </div>
+                </div>
+            </section>
+            <h1 class="centered-title">COMMENCEZ</h1>
+            <div class="downloadbuttons">
+                <button id="downloadBtn" class="btn btn-minecraft" data-url="https://github.com/Communaute-Events/">Github</button>
+                <button id="discordBtn" class="btn btn-minecraft" data-url="https://discord.gg/TdvYYbVn">Discord</button>
+            </div>
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-left">
+                        <p>© 2024 Communauté Events. Website by Meek</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
